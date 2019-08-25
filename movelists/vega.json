@@ -1,0 +1,50 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Vega"
+		},
+		{
+			"region": "japan",
+			"roman": "Balrog",
+			"original": "バルログ"
+		}
+	],
+	"images": {
+		"face": "vega.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Rainbow Suplex",
+				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Backslash",
+				"input": ":b::b:"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Rolling Crystal Flash",
+				"input": "{charge} :b: :f:+[P]"
+			},
+			{
+				"name": "Flying Barcelona",
+				"input": "{charge} :d: :u:+[K]"
+			},
+			{
+				"name": "Flying Barcelona Attack",
+				"input": "[P]",
+				"after": "Flying Barcelona"
+			},
+			{
+				"name": "Izuna Drop",
+				"input": "{close} :b: {or} :f:+[P]",
+				"after": "Flying Barcelona"
+			}
+		]
+	}
+}
