@@ -1,0 +1,84 @@
+{
+	"names": [
+		{
+			"region": "default",
+			"roman": "Zangief"
+		},
+		{
+			"region": "japan",
+			"roman": "Zangief",
+			"original": "ザンギエフ"
+		}
+	],
+	"images": {
+		"face": "zangief.webp"
+	},
+	"moves": {
+		"{normal-throws}": [
+			{
+				"name": "Piledriver",
+				"input": "{close} :b: {or} :f:+[MP]"
+			},
+			{
+				"name": "Body Slam",
+				"input": "{close} :db: {or} :df:+[MP]"
+			},
+			{
+				"name": "Brain Buster",
+				"input": "{close} :b: {or} :f:+[HP]"
+			},
+			{
+				"name": "Suplex",
+				"input": "{close} :b: {or} :f:+[MK]"
+			},
+			{
+				"name": "Powerbomb",
+				"input": "{close} :b: {or} :f:+[HK]"
+			},			
+			{
+				"name": "Launcher",
+				"input": "{close} :d:+[HP]"
+			},
+			{
+				"name": "Head Bite",
+				"input": "{1StepAway} :b: {or} :f:+[HP]"
+			},
+			{
+				"name": "Stomach Crunch",
+				"input": "{1StepAway} :d:+[MP]"
+			}
+		],
+		"{unique-attacks}": [
+			{
+				"name": "Double Knee Drop",
+				"input": "{duringAngledJump} :d:+[LK]"
+			},
+			{
+				"name": "Flying Body Press",
+				"input": "{duringAngledJump} :d:+[HP]"
+			},
+			{
+				"name": "Flying Head Butt",
+				"input": "{duringVerticalJump} :u:+[HP]"
+			}
+		],
+		"{special-moves}": [
+			{
+				"name": "Double Lariat",
+				"input": "[LP]+[MP]+[HP] ({use} :b: {or} :f: {toMove})"
+			},
+			{
+				"name": "Spinning Piledriver",
+				"input": "{close} :360:+[P]"
+			}
+		]
+	},
+	"custom_strings": {
+		"english": [
+			{ "1StepAway": "one step away from the opponent"}
+		],
+		"portuguese": [
+			{ "1StepAway": "a um passo de distância do oponente"}
+		]
+	}
+}
