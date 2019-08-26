@@ -24,6 +24,10 @@
 			{
 				"name": "Backslash",
 				"input": ":b::b:"
+			},
+			{
+				"name": "Wall Jump",
+				"input": "{duringJumpNearWall} :f:"
 			}
 		],
 		"{special-moves}": [
