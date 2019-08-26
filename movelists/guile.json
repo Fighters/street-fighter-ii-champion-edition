@@ -16,13 +16,13 @@
 	"moves": {
 		"{normal-throws}": [
 			{
-				"name": "Dragon Suplex",
-				"input": "{close} :b: {or} :f:+[HP]"
-			},
-			{
 				"name": "Judo Throw",
 				"input": "{close} :b: {or} :f:+[MP]"
 			},
+			{
+				"name": "Dragon Suplex",
+				"input": "{close} :b: {or} :f:+[HP]"
+			},			
 			{
 				"name": "Flying Mare",
 				"input": "{inAirAndClose} :b: {or} :f:+[MP] {or} [HP]"
