@@ -63,7 +63,7 @@
 			},
 			{
 				"name": "Flying Head Butt",
-				"input": "{duringVerticalJump} :u:+[HP]"
+				"input": "{duringVerticalJump} :u:+[MP] {or} [HP]"
 			}
 		],
 		"{special-moves}": [
