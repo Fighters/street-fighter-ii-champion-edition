@@ -31,7 +31,7 @@
 			},
 			{
 				"name": "Head Press",
-				"input": "{charge} :d: :u:+[K]"
+				"input": "{charge} :d: :u:+[K] ({use} :b: {or} :f: {toChangeTrajectory} {onHit})"
 			},
 			{
 				"name": "Somersault Skull Diver",
