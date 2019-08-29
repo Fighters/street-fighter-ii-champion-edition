@@ -1,20 +1,18 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Ken"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Ken",
 			"original": "ケン"
 		}
-	],
+	},
 	"images": {
 		"face": "ken.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Shoulder Throw",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +22,7 @@
 				"input": "{close}, :b: {or} :f:+[MK] {or} [HK]"
 			}		
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hadoken",
 				"input": ":qcf:+[P]"

@@ -1,26 +1,24 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Vega"
 		},
-		{
-			"region": "japan",
+		 "japan": {
 			"roman": "Balrog",
 			"original": "バルログ"
 		}
-	],
+	},
 	"images": {
 		"face": "vega.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Rainbow Suplex",
 				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Backslash",
 				"input": ":b::b:"
@@ -30,7 +28,7 @@
 				"input": "{duringJumpNearWall} :f:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Rolling Crystal Flash",
 				"input": "{charge} :b: :f:+[P]"

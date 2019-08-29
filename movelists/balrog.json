@@ -1,26 +1,25 @@
 {
-	"names": [
+	"names": {
+		"default" :			
 		{
-			"region": "default",
 			"roman": "Balrog"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "M. Bison",
 			"original": "マイク・バイソン"
 		}
-	],
+	},
 	"images": {
-		"face": "mbison.webp"
+		"face": "balrog.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Head Bomber",
 				"input": "{close} :b: {or} :f:+[MP] {or} [{]HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Dash Straight",
 				"input": "{charge} :b: :f:+[P]"

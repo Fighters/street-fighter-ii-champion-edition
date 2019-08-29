@@ -1,20 +1,18 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Chun-Li"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Chun-Li",
 			"original": "チュンリー"
 		}
-	],
+	},
 	"images": {
 		"face": "chunli.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Koshuto",
 				"input": "{close}, :b: {or} :f:+[MP] {or} [HP]"
@@ -24,7 +22,7 @@
 				"input": "{inAirAndClose}, :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],		
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Rear Spin Kick",
 				"input": "{close}, :b: {or} :f:+[MK]"
@@ -42,7 +40,7 @@
 				"input": "{duringJumpNearWall}, :f:"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Hyakuretsukyaku",
 				"input": "{tapKick}"

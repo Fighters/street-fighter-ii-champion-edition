@@ -1,32 +1,30 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Blanka"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Blanka",
 			"original": "ブランカ"
 		}
-	],
+	},
 	"images": {
 		"face": "blanka.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Wild Fang",
 				"input": "{close} :b: {or} :f:+[HP]"
 			}
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Rock Crusher",
 				"input": "{close} :b: {or} :f:+[MP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Electric Thunder",
 				"input": "{tapPunch}"

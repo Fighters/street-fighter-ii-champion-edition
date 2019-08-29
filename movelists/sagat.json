@@ -1,26 +1,24 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Sagat"
 		},
-		{
-			"region": "japan",
+		 "japan": {
 			"roman": "Sagat",
 			"original": "サガット"
 		}
-	],
+	},
 	"images": {
 		"face": "sagat.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Tiger Carry",
 				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Tiger Shot",
 				"input": ":qcf:+[P]"

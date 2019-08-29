@@ -1,26 +1,24 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "M. Bison"
 		},
-		{
-			"region": "japan",
+		"japan": {
 			"roman": "Vega",
 			"original": "ベガ"
 		}
-	],
+	},
 	"images": {
 		"face": "mbison.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Deadly Throw",
 				"input": "{close} :b: {or} :f:+[MP] {or} [HP]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Psycho Crusher",
 				"input": "{charge} :b: :f:+[P]"

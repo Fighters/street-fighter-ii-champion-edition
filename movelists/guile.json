@@ -1,20 +1,19 @@
 {
-	"names": [
-		{
-			"region": "default",
+	"names": {
+		"default": {
 			"roman": "Guile"
 		},
-		{
-			"region": "japan",
+		"japan": {
+			
 			"roman": "Guile",
 			"original": "ガイル"
 		}
-	],
+	},
 	"images": {
 		"face": "guile.webp"
 	},
 	"moves": {
-		"{normal-throws}": [
+		"{normalThrows}": [
 			{
 				"name": "Judo Throw",
 				"input": "{close} :b: {or} :f:+[MP]"
@@ -32,7 +31,7 @@
 				"input": "{inAirAndClose} :b: {or} :f:+[MK] {or} [HK]"
 			}	
 		],
-		"{unique-attacks}": [
+		"{uniqueAttacks}": [
 			{
 				"name": "Knee Bazooka",
 				"input": ":b: {or} :f:+[MK]"
@@ -42,7 +41,7 @@
 				"input": "{close} :b: {or} :f:+[HK]"
 			}
 		],
-		"{special-moves}": [
+		"{specialMoves}": [
 			{
 				"name": "Sonic Boom",
 				"input": "{charge} :b: :f:+[P]"
