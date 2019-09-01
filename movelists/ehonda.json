@@ -29,7 +29,7 @@
 		],
 		"{uniqueAttacks}": [
 			{
-				"name": "Knee Strike",
+				"name": "Hiza-Geri",
 				"input": "{close} :b: {or} :f:+[MK]"
 			}
 		],	
